@@ -17,8 +17,9 @@ class Movies extends Migration
             $table->bigIncrements('id');
             $table->string('title');
             $table->string('genre');
+            $table->string('director');
             $table->string('year');
-            $table->string('storyline');
+            $table->text('storyline');
         });
     }
 
@@ -29,6 +30,6 @@ class Movies extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('movies');
     }
 }
