@@ -2,7 +2,7 @@
     <div class="container">
       <nav class="nav blog-nav">
         <a class="nav-link" href="/movies">Movies</a>
-        <a class="nav-link" href="/add">Add Movie</a>
+        <a class="nav-link" href="/movies/create">Add Movie</a>
 
       </nav>
     </div>
